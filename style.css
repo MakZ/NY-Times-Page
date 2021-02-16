@@ -174,7 +174,6 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   padding: 5px 0;
-  text-transform: uppercase;
 }
 
 .comments {
@@ -318,8 +317,23 @@ img {
   height: 1px;
 }
 
+.homepage a {
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer-links a,
+.homepage a {
+  text-decoration: none;
+  color: black;
+}
+
 .daily:nth-of-type(2) {
   margin: 10px 10px 10px 10px;
+}
+
+.footer-links a {
+  font-size: 14px;
 }
 
 .footer {
@@ -354,16 +368,6 @@ img {
   padding-bottom: 10px;
 }
 
-.footer-links a {
-  font-size: 14px;
-}
-
-.footer-links a,
-.homepage a {
-  text-decoration: none;
-  color: black;
-}
-
 .footer-links a:hover,
 .homepage a:hover {
   text-decoration: underline;
@@ -372,11 +376,6 @@ img {
 #subscribe {
   border-left: 1px solid rgb(226, 226, 226);
   padding-left: 15px;
-}
-
-.homepage a {
-  font-size: 11px;
-  text-decoration: none;
 }
 
 .links-header {
