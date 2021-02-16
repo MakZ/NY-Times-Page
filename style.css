@@ -32,7 +32,6 @@ nav {
   display: flex;
   padding-bottom: 10px;
   flex-wrap: wrap;
-  display: flex;
 }
 
 .theuniverse {
@@ -40,12 +39,13 @@ nav {
   padding: 10px;
 }
 
-.middle-text{
+.middle-text {
   width: 60%;
   margin: auto;
 }
 
-.author, .date {
+.author,
+.date {
   text-align: left;
   padding-bottom: 20px;
 }
@@ -62,6 +62,8 @@ h5 {
 
 .date {
   font-weight: lighter;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
 }
 
 .container {
@@ -163,7 +165,6 @@ h5 {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
-  color: white;
   display: block;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.8125rem;
@@ -174,19 +175,10 @@ h5 {
   margin-right: auto;
   padding: 5px 0;
   text-transform: uppercase;
-  transition: background-color  0.6s ease 0s;
-  width: 100%;
 }
 
 .comments {
   padding-bottom: 30px;
-}
-
-.most-popular {
-  border-top: 1px solid black;
-  text-align: left;
-  padding-left: 0!important;
-  font-weight: bold;
 }
 
 .wrap {
@@ -206,6 +198,10 @@ h5 {
   width: 30%;
   margin: 10px;
   padding: 10px;
+  border-top: 1px solid black;
+  text-align: left;
+  padding-left: 0 !important;
+  font-weight: bold;
 }
 
 .article {
@@ -214,7 +210,7 @@ h5 {
   padding: 15px 0;
 }
 
-#first-of-type{
+#first-of-type {
   border-top: 1px solid rgb(226, 226, 226);
 }
 
@@ -269,12 +265,14 @@ h5 {
   padding-bottom: 5px;
 }
 
-.daily img {
-  padding-bottom: 10px;
+img {
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
 }
 
-.text {
-  font-size: 14px;
+.daily img {
+  padding-bottom: 10px;
 }
 
 .link a {
@@ -288,22 +286,11 @@ h5 {
   padding: 15px 0;
 }
 
-.date {
-  color: rgb(153, 153, 153);
-  font-size: 12px;
-}
-
 .featured-article {
   width: 30%;
   padding: 10px 0 10px 0;
   font-size: 18px;
   cursor: pointer;
-}
-
-img {
-  max-width: 100% !important;
-  height: auto;
-  width: auto;
 }
 
 .article-author {
@@ -331,7 +318,7 @@ img {
   height: 1px;
 }
 
-.daily: nth-of-type(2) {
+.daily:nth-of-type(2) {
   margin: 10px 10px 10px 10px;
 }
 
@@ -349,7 +336,7 @@ img {
   color: #666;
 }
 
-.footer a: hover {
+.footer a:hover {
   text-decoration: underline;
 }
 
@@ -365,7 +352,6 @@ img {
   justify-content: space-between;
   text-align: left;
   padding-bottom: 10px;
-
 }
 
 .footer-links a {
@@ -378,7 +364,8 @@ img {
   color: black;
 }
 
-.footer-links a: hover, .homepage a: hover {
+.footer-links a:hover,
+.homepage a:hover {
   text-decoration: underline;
 }
 
