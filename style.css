@@ -17,8 +17,29 @@ nav {
     left:0;
 }
 
+.img {
+        justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.theoryinfo {
+    text-align: left;
+    padding-top:20px;
+    display: flex;
+    padding-bottom:10px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.theuniverse {
+        width:22%;
+            padding:10px;
+}
+
 .middle-text{
-    width:50%;
+    width:60%;
     margin:auto;
 }
 
@@ -42,7 +63,7 @@ h5 {
 .container {
     padding-top:100px;
     margin:auto;
-    width:60%;
+    width:50%;
     text-align: center;
 }
 
