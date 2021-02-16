@@ -331,6 +331,25 @@ img {
         margin: 10px 10px 10px 10px;
 }
 
+.footer {
+        padding-top:10px;
+        border-top: 1px solid #ebebeb;
+        font-size:11px;
+        padding-bottom:30px;
+        justify-content: space-between;
+        display: flex;
+}
+
+.footer a {
+        text-decoration: none;
+        color: #666;
+}
+
+.footer a:hover {
+        text-decoration: underline;
+}
+
+
 .footer-header {
         padding: 10px 0px 10px;
         justify-content: space-between;
@@ -384,20 +403,3 @@ img {
         border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.footer {
-        padding-top:10px;
-        border-top: 1px solid #ebebeb;
-        font-size:11px;
-        padding-bottom:30px;
-        justify-content: space-between;
-        display: flex;
-}
-
-.footer a {
-        text-decoration: none;
-        color: #666;
-}
-
-.footer a:hover {
-        text-decoration: underline;
-}
