@@ -1,23 +1,23 @@
 body,
 p {
-  margin:0;
+  margin: 0;
 }
 
 .fas {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  background:white;
-  margin:auto;
-  padding:10px 200px;
-  border:1px solid #ddd;
+  background: white;
+  margin: auto;
+  padding: 10px 200px;
+  border: 1px solid #ddd;
   position: fixed;
-  top:0;
+  top: 0;
   right: 0;
-  left:0;
+  left: 0;
 }
 
 .img {
@@ -28,30 +28,32 @@ nav {
 
 .theoryinfo {
   text-align: left;
-  padding-top:20px;
+  padding-top: 20px;
   display: flex;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   flex-wrap: wrap;
   display: flex;
 }
 
 .theuniverse {
-  width:22%;
-  padding:10px;
+  width: 22%;
+  padding: 10px;
 }
 
 .middle-text{
-  width:60%;
-  margin:auto;
+  width: 60%;
+  margin: auto;
 }
 
 .author, .date {
-  text-align:left;
-  padding-bottom:20px;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 h5 {
-  width:70%;
+  width: 70%;
+  text-align: left;
+  font-weight: 500;
 }
 
 .author {
@@ -63,29 +65,24 @@ h5 {
 }
 
 .container {
-  padding-top:100px;
-  margin:auto;
-  width:50%;
+  padding-top: 100px;
+  margin: auto;
+  width: 50%;
   text-align: center;
 }
 
-h5 {
-  text-align:left;
-  font-weight: 500;
-}
-
 .text {
-  font-size:20px;
+  font-size: 20px;
   text-align: left;
 }
 
 .left-panel {
-  display:flex;
-  padding:10px;
+  display: flex;
+  padding: 10px;
 }
 
 .fa-search {
-  padding:0px 20px;
+  padding: 0 20px;
 }
 
 .right-panel {
@@ -96,9 +93,9 @@ h5 {
 .right-panel button {
   background-color: #567b95;
   border: 1px solid #326891;
-  color:white;
-  margin-right:10px;
-  padding:10px;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
   font-weight: bold;
 }
 
@@ -117,15 +114,15 @@ h5 {
 .icons {
   display: flex;
   justify-content: center;
-  margin-bottom:22px;
+  margin-bottom: 22px;
 }
 
 .icons .fas,
 .icons .fab {
   justify-content: center;
   display: flex;
-  margin:5px;
-  cursor:pointer;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .login {
@@ -154,14 +151,14 @@ h5 {
 }
 
 .addition {
-  font-size:12px;
+  font-size: 12px;
   color: rgb(102, 102, 102);
-  padding:20px;
+  padding: 20px;
 }
 
 .read-comments {
-  width:150px;
-  color:white;
+  width: 150px;
+  color: white;
   text-transform: uppercase;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -175,46 +172,46 @@ h5 {
   line-height: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px 0px;
+  padding: 5px 0;
   text-transform: uppercase;
-  transition: background-color 0.6s ease 0s;
+  transition: background-color  0.6s ease 0s;
   width: 100%;
 }
 
 .comments {
-  padding-bottom:30px;
+  padding-bottom: 30px;
 }
 
 .most-popular {
-  border-top:1px solid black;
-  text-align:left;
-  padding-left:0!important;
+  border-top: 1px solid black;
+  text-align: left;
+  padding-left: 0!important;
   font-weight: bold;
 }
 
 .wrap {
-  display:flex;
+  display: flex;
 }
 
 .spaced {
-  border-top:1px solid black;
-  width:70%;
-  margin: 10px 0px 0px 0px;
-  padding: 15px 0px 0px 0px;
+  border-top: 1px solid black;
+  width: 70%;
+  margin: 10px 0 0 0;
+  padding: 15px 0 0 0;
   justify-content: space-between;
   margin-right: 15px;
 }
 
 .most-popular {
-  width:30%;
-  margin:10px;
-  padding:10px;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
 }
 
 .article {
   font-weight: 500;
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 #first-of-type{
@@ -222,16 +219,16 @@ h5 {
 }
 
 .most-popular-heading {
-  padding-bottom:15px;
+  padding-bottom: 15px;
 }
 
 .most-popular #text {
-  padding-bottom:15px;
+  padding-bottom: 15px;
 }
 
 .show {
   color: rgb(102, 102, 102);
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .suggested {
@@ -240,7 +237,7 @@ h5 {
 }
 
 .fa-plus-circle {
-  font-size:30px;
+  font-size: 30px;
 }
 
 .space-between {
@@ -249,10 +246,10 @@ h5 {
 }
 
 .daily {
-  padding:10px;
-  border:1px solid #eee;
+  padding: 10px;
+  border: 1px solid #eee;
   width: 28%;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0 10px 0;
   text-align: left;
 }
 
@@ -269,38 +266,38 @@ h5 {
 
 .heading {
   font-weight: bold;
-  padding-bottom:5px;
+  padding-bottom: 5px;
 }
 
 .daily img {
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .text {
-  font-size:14px;
+  font-size: 14px;
 }
 
 .link a {
   text-decoration: none;
-  padding:10px 0px;
+  padding: 10px 0;
 }
 
 .more-articles {
   border-top: 1px solid black;
   margin-top: 10px;
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 .date {
   color: rgb(153, 153, 153);
-  font-size:12px;
+  font-size: 12px;
 }
 
 .featured-article {
   width: 30%;
-  padding: 10px 0px 10px 0px;
-  font-size:18px;
-  cursor:pointer;
+  padding: 10px 0 10px 0;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 img {
@@ -310,8 +307,8 @@ img {
 }
 
 .article-author {
-  text-align:right;
-  font-size:10px;
+  text-align: right;
+  font-size: 10px;
   color: rgb(153, 153, 153);
 }
 
@@ -322,7 +319,7 @@ img {
 }
 
 .featured-title {
-  text-align:left;
+  text-align: left;
 }
 
 .break-line {
@@ -334,15 +331,15 @@ img {
   height: 1px;
 }
 
-.daily:nth-of-type(2) {
+.daily: nth-of-type(2) {
   margin: 10px 10px 10px 10px;
 }
 
 .footer {
-  padding-top:10px;
+  padding-top: 10px;
   border-top: 1px solid #ebebeb;
-  font-size:11px;
-  padding-bottom:30px;
+  font-size: 11px;
+  padding-bottom: 30px;
   justify-content: space-between;
   display: flex;
 }
@@ -352,61 +349,61 @@ img {
   color: #666;
 }
 
-.footer a:hover {
+.footer a: hover {
   text-decoration: underline;
 }
 
 .footer-header {
-  padding: 10px 0px 10px;
+  padding: 10px 0 10px;
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
 
 .footer-links {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   text-align: left;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 
 }
 
 .footer-links a {
-  font-size:14px;
+  font-size: 14px;
 }
 
 .footer-links a,
 .homepage a {
-  text-decoration:none;
-  color:black;
+  text-decoration: none;
+  color: black;
 }
 
-.footer-links a:hover, .homepage a:hover {
-  text-decoration:underline;
+.footer-links a: hover, .homepage a: hover {
+  text-decoration: underline;
 }
 
 #subscribe {
   border-left: 1px solid rgb(226, 226, 226);
-  padding-left:15px;
+  padding-left: 15px;
 }
 
 .homepage a {
-  font-size:11px;
+  font-size: 11px;
   text-decoration: none;
 }
 
 .links-header {
-  padding-bottom:6px;
+  padding-bottom: 6px;
   font-weight: bold;
 }
 
 .bold {
   font-weight: bold;
-  padding-bottom:15px;
+  padding-bottom: 15px;
 }
 
 #border-bottom {
-  padding-bottom:5px;
-  margin-bottom:5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   border-bottom: 1px solid rgb(226, 226, 226);
 }
