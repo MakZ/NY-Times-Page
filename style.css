@@ -159,7 +159,7 @@ h5 {
 }
 
 .read-comments {
-  width: 150px;
+  width: 100%;
   color: white;
   text-transform: uppercase;
   background-color: rgb(86, 123, 149);
@@ -312,7 +312,7 @@ img {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
-  content: '';
+  content: "";
   display: block;
   height: 1px;
 }
