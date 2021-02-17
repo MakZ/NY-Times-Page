@@ -69,7 +69,7 @@ h5 {
 .container {
   padding-top: 100px;
   margin: auto;
-  width: 50%;
+  width: 60%;
   text-align: center;
 }
 
@@ -156,6 +156,11 @@ h5 {
   font-size: 12px;
   color: rgb(102, 102, 102);
   padding: 20px;
+}
+
+.left-panel a {
+  text-decoration: none;
+  color: black;
 }
 
 .read-comments {
@@ -338,8 +343,7 @@ img {
 
 .expand-button {
   display: flex;
-  position: fixed;
-  right: 400px;
+  margin-left: 150px;
   width: 100px;
   justify-content: space-between;
   align-items: center;
@@ -349,12 +353,30 @@ img {
   font-size: 12px;
 }
 
+iframe {
+  width: 100%;
+  height: 350px;
+  margin: 20px 0;
+}
+
 aside {
   width: 20%;
   position: absolute;
-  right: 200px;
+  right: 150px;
   text-align: left;
   z-index: -1;
+}
+
+.bold-text {
+  font-weight: bold;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.gray-text {
+  color: #666;
+  padding: 10px 0;
 }
 
 .aside-text {
