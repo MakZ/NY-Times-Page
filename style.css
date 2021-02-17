@@ -393,3 +393,62 @@ img {
   margin-bottom: 5px;
   border-bottom: 1px solid rgb(226, 226, 226);
 }
+
+.expand {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+.expand-button {
+  display: flex;
+  position: fixed;
+  right: 400px;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expand-button-text {
+  font-size: 12px;
+}
+
+aside {
+  width: 20%;
+  position: absolute;
+  right: 200px;
+  text-align: left;
+  z-index: -1;
+}
+
+.aside-text {
+  border-bottom: 1px solid #ddd;
+  width: 60%;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.editors-content {
+  display: flex;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.editors-text {
+  width: 40%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.editors-text a {
+  text-decoration: none;
+  color: black;
+}
